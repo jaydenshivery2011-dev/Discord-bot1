@@ -3,7 +3,7 @@ module.exports = {
   execute(message, args) {
     message.reply("Pong!");
   }
-};module.exports = {
+module.exports = {
   name: "roll",
   execute(message, args) {
     const number = Math.floor(Math.random() * 6) + 1;
